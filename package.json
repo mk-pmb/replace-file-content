@@ -1,0 +1,36 @@
+{ "name": "replace-file-content",
+  "version": "0.0.1",
+  "description": "Safely replace content of a file by writing the new content to a temporary file and then renaming it to the original file name.",
+  "keywords": [ ":TODO:" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/replace-file-content-node#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/replace-file-content-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/replace-file-content-node/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "rfc.js",
+  "bin": {
+    "replace-file-content-node": "cli.js"
+  },
+  "scripts": {
+    "test": "demo-util-160404-test-demos"
+  },
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+
+  "dependencies": {},
+  "devDependencies": {
+    "lib-demo-util-160404": "^0.1.0"
+  },
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
